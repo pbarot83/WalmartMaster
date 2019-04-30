@@ -1,7 +1,7 @@
 # WalmartMaster
 WalmartAssignment
 
-### This FrameWork Contains 3 Passed Test Cases for the Smoke Testing##
+### This FrameWork Contains 3 Passed Test Cases for the Smoke Testing ###
 Framework has been created using Maven, TestNG, Java, JavaScript and Log4J.
 
 ### Following are the TestCases That can be created to Target the Smoke Testing ###
