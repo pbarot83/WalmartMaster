@@ -10,7 +10,8 @@ import org.testng.annotations.Test;
 import ca.walmart.qa.base.TestBase;
 import ca.walmart.qa.pages.HomePage;
 
-/* This Test case Covers the following Steps:
+/* Testing the link to go back to Home Page by clicking on Walmart Logo.
+ * This Test case Covers the following Steps:
  * 1. Open the Website.
  * 2. Make sure it shows "Walmart" logo with Valid tag line.
  * 3. Search Option enter "Cake".

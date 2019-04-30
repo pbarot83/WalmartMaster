@@ -8,7 +8,8 @@ import ca.walmart.qa.base.TestBase;
 import ca.walmart.qa.pages.HomePage;
 import junit.framework.Assert;
 
-/*// This Test Case covers the following steps:
+/*Testing the Item Order Pipeline
+ *  This Test Case covers the following steps:
  * 1. Enter the "BedSheet" in SearchOption.
  * 2. Press Enter.
  * 3. Pick the first item / any item and click "add cart".

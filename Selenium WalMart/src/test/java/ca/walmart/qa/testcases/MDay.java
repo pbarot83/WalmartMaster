@@ -9,7 +9,8 @@ import ca.walmart.qa.pages.AddCart;
 import ca.walmart.qa.pages.HomePage;
 import junit.framework.Assert;
 
-/* This Test case Covers the following Steps:
+/* Testing the Mother's Day Page
+ * This Test case Covers the following Steps:
  * 1. Open the Website.
  * 2. Click on Mother's Day tab.
  * 3. Wait until you see the Mother's Day Page.
