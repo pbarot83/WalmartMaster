@@ -16,6 +16,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	
+	//Here, Setting up the Properties File To read the WebBrowser.
 	public TestBase(){
 		try {
 			prop = new Properties();
@@ -30,6 +31,7 @@ public class TestBase {
 	}
 	
 	
+	// Here, Initializing the WebBrowser as per the Key, Value pair from Properties File.
 	public static void initialization(){
 		String browserName = prop.getProperty("browser");
 		
@@ -40,12 +42,10 @@ public class TestBase {
 			driver = new FirefoxDriver(); 
 		}
 		
-		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		
 		driver.get(prop.getProperty("url"));
 		
 	}	
