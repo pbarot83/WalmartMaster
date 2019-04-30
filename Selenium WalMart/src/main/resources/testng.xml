@@ -1,0 +1,10 @@
+
+<suite name="WalmartTesting">
+	<test name="testngTest">
+		<classes>
+			<class name="ca.walmart.qa.testcases.MDay" />
+			<class name="ca.walmart.qa.testcases.Order" />
+			<class name="ca.walmart.qa.testcases.WalmartLogoTest" />
+		</classes>
+	</test>
+</suite>

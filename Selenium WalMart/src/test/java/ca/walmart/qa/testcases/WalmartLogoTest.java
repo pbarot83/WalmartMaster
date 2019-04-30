@@ -26,7 +26,6 @@ public class WalmartLogoTest extends TestBase {
 	HomePage Homepage;
 
 	public WalmartLogoTest() {
-
 		super();
 	}
 
