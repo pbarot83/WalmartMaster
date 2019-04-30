@@ -1,9 +1,6 @@
 # WalmartMaster
 WalmartAssignment
 
-### This FrameWork Contains 3 Passed Test Cases for the Smoke Testing ###
-Framework has been created using Maven, TestNG, Java, JavaScript and Log4J.
-
 ### Following are the TestCases That can be created to Target the Smoke Testing ###
 Scenario A: Make Sure You get incremental numbers on you cart,when you keep adding the items
 Steps : 1. Open the https://walmart.ca
@@ -43,6 +40,23 @@ Steps : 1. Open the Website link.
 	5. Purchase the item with valid address.
 	6. Check the status of the order.
 	7. Order Should be confirmed.
+	
+### This FrameWork Contains 3 Passed Test Cases for the Smoke Testing ###
+Framework has been created using Maven, TestNG, Java, JavaScript and Log4J.
 
+It has mainly three main folders:
+1. src/main/java:::::
+Test Base Has: Configuration for Property files to read the data from and has initialization as well.
+Pages Has : Which has Page Object Model structure and Element Locators Inside that.
+Config Has : Config.Properties file to store the details related to Key, Value pair.
+Util Has : Utlization related files.
+
+2. src/test/java::::
+It Contains Scenario B,C and D Related Test Cases.
+
+3. src/test/resources::::
+It has log4j.properties file for Logging and testng.xml file for parallelization.
+
+### You can check the Pass Test Cases Result under File:::WalmartMaster/Selenium WalMart/test-output/Result ###
 
 
