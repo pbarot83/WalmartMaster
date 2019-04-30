@@ -8,7 +8,7 @@ import ca.walmart.qa.base.TestBase;
 
 public class AddCart extends TestBase{
 	
-	@FindBy (xpath="//article[1]//span[@innertext='Add to cart']")
+	@FindBy (xpath="//div[@id='shelf-thumbs']/div/article[1]/div[@class='CTA-container']/button")
 	WebElement addcart1;
 
 	@FindBy (xpath="//div[#'ac-ctas']/a[@innertext='Continue shopping']")
@@ -20,6 +20,10 @@ public class AddCart extends TestBase{
 	//Initializing the Page Objects:
 	public AddCart() {
 		PageFactory.initElements(driver, this);
+	}
+	
+	public void clickaddcart1() {
+		addcart1.click();
 	}
 	
 

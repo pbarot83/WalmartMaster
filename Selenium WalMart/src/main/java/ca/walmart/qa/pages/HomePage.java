@@ -12,8 +12,11 @@ public class HomePage extends TestBase {
 	@FindBy(name="search-form-input")
 	WebElement search;
 	
-	@FindBy(css="#header-mothers-day [href]]")
+	@FindBy(id="header-mothers-day")
 	WebElement mday;
+	
+	@FindBy(css =".html-cartridge.mobile-hide")
+	WebElement texttoconfirm;
 	
 	@FindBy(css=".gicon-magnifier")
 	WebElement sbutton;
@@ -34,6 +37,11 @@ public class HomePage extends TestBase {
 	}
 	
 	public String validatelogo() {
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		return wlogo.getAttribute("alt");
 	}
 	
@@ -55,8 +63,18 @@ public class HomePage extends TestBase {
 	
 	public String getsearchtext() {
 		return search.getAttribute("title");
+	}
+	
+	public void clickmday() {
+		mday.click();
+
+	}
+	
+	public String returntheheading() {
+		return texttoconfirm.getText();
 		
 	}
+	
 	
 }
 
