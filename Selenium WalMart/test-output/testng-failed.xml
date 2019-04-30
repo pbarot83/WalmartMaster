@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="ca.walmart.qa.testcases.MDay">
+      <class name="ca.walmart.qa.testcases.Order">
         <methods>
-          <include name="teardown"/>
           <include name="setup"/>
-          <include name="AssertMDay"/>
+          <include name="continueshop"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- ca.walmart.qa.testcases.MDay -->
+      </class> <!-- ca.walmart.qa.testcases.Order -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
